@@ -11,7 +11,7 @@ finishers:
       subject: '{subject}'
       recipients:
         info@eduardofrank.co: info
-      senderAddress: '{emailAddress}'
+      senderAddress: info@eduardofrank.co
       senderName: '{name}  {lastName}'
       addHtmlPart: false
       attachUploads: true
@@ -19,6 +19,8 @@ finishers:
         language: Default
       useFluidEmail: false
       title: ''
+      replyToRecipients:
+        '{emailAddress}': '{name}  {lastName}'
     identifier: EmailToReceiver
   -
     options:

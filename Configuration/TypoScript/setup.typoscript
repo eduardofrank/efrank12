@@ -38,6 +38,8 @@ page {
 config.admPanel = 0
 config.contentObjectExceptionHandler = 0
 
+config.linkVars=L(1-2)
+
 #### FORM CONFIGURATION ###
 #plugin.tx_form.settings.yamlConfigurations.100 = EXT:efrank12/Configuration/Yaml/FormSetup.yaml#
 #module.tx_form.settings.yamlConfigurations.100 = EXT:efrank12/Configuration/Yaml/FormSetup.yaml#
