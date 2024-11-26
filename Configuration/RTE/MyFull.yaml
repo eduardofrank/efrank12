@@ -7,11 +7,13 @@ imports:
     - { resource: 'EXT:rte_ckeditor/Configuration/RTE/Processing.yaml' }
     - { resource: 'EXT:rte_ckeditor/Configuration/RTE/Editor/Base.yaml' }
     - { resource: 'EXT:rte_ckeditor/Configuration/RTE/Editor/Plugins.yaml' }
+    - { resource: "EXT:rte_ckeditor_image/Configuration/RTE/Plugin.yaml" }
 
 # Add configuration for the editor
 # For complete documentation see https://ckeditor.com/docs/ckeditor5/latest/features/index.html
 editor:
   config:
+    removePlugins: null
     style:
       definitions:
         # block level styles
@@ -50,6 +52,7 @@ editor:
         - tableRow
         - mergeTableCells
         - '|'
+        - insertimage
         - codeBlock
         - sourceEditing
         - showBlocks
@@ -115,7 +118,18 @@ editor:
     fontSize:
       options:
         - 'default'
+        - 9
+        - 10
+        - 11
+        - 12
+        - 13
+        - 14
+        - 15
+        - 16
+        - 17
         - 18
+        - 19
+        - 20
         - 21
 
     importModules:
