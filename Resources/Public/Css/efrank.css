@@ -29,6 +29,13 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6 {
     font-weight: 700 !important;
 }
 
+#p1 .postlist__postdescription,
+#p3 .postlist__postdescription {
+    margin-top: .5rem;	
+	margin-bottom: .5rem;
+    height: 12rem;
+}
+   
 .element-subheader {
     font-weight: 100;
 }
