@@ -132,12 +132,32 @@ p a span {
 
 .postlist--recent {
     display: grid;
-    gap:1.5rem;
-    grid-template-columns: repeat(3, minmax(208px, 1fr));
+    gap:.75rem;
+    grid-template-columns: repeat(4, minmax(150px, 1fr));
 }
 
-.postlist__post {
-    margin-top: 0;
+.postlist__post:first-of-type {
+    margin-top: 1.5rem;
+}
+
+.postlist--bycategory,
+.postlist--bytag {
+    display: grid;
+    gap:.75rem;
+    grid-template-columns: repeat(4, minmax(150px, 1fr));
+}
+
+#p1 .postlist__postdescription,
+#p3 .postlist__postdescription {
+    margin-top: .5rem;	
+	margin-bottom: .5rem;
+    height: 16.5rem;
+}
+
+#p8 .postlist__postdescription {
+    margin-top: .5rem;	
+	margin-bottom: .5rem;
+    height: 16.5rem;
 }
 
 /*.postlist__posttitle,
